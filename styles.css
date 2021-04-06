@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "If";
+    src: url(If.ttf);
+}
+
+* {
+    font-family: 'If', Fallback, sans-serif;
+}
