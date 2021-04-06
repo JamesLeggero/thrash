@@ -3,6 +3,44 @@
     src: url(If.ttf);
 }
 
-* {
+/* * {
     font-family: 'If', Fallback, sans-serif;
+} */
+
+html, body {
+    padding:0;
+    margin:0;
+}
+
+header {
+    background-color: black;
+    height: 75px;
+}
+
+h1 {
+    float: left;
+    color: white;
+    margin-left: 20px;
+}
+
+nav {
+    text-align: center;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: auto;
+   
+}
+
+li {
+    display: inline;
+    color: white;
+    /* height: 75px; */
+    line-height: 75px;
+    padding: 0 40px
+   
+
+    
 }
