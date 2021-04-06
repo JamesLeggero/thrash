@@ -25,6 +25,7 @@ h1 {
 
 nav {
     text-align: center;
+    width: 1250px
 
 }
 
@@ -35,12 +36,33 @@ ul {
 }
 
 li {
+    font-family: 'If', Fallback, sans-serif;
+    font-size: 20px;
+    letter-spacing: 2.5px;
+    font-weight: lighter;
+    /* is this doing anything? */
     display: inline;
     color: white;
-    /* height: 75px; */
     line-height: 75px;
-    padding: 0 40px
-   
-
-    
+    padding: 0 40px  
 }
+
+h2 {
+    text-align: center;
+    font-family: 'If', Fallback, sans-serif;
+    letter-spacing: 2.5px;
+    font-size: 34px;
+    font-weight: lighter;
+    color: white;
+}
+
+.section-container {
+    width: 650px;
+    height: 100%;
+    padding: 50px 100px;
+    background-color: violet;
+    /* margin: 0 auto; */
+    margin: 70px 200px
+
+}
+
