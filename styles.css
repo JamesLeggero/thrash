@@ -75,11 +75,28 @@ h2 {
     color: white;
 }
 
+.giant-hero-container {
+    background-size: 1366px;
+    width: 1366px;
+    height: 100%;
+    margin: -75px 0;
+    background-image: 
+        url(img/Redman.jpg),
+        url(img/trash.jpg),
+        url(img/RedBGround.svg);
+    background-position: 
+        top,
+        bottom;
+    background-repeat: no-repeat;
+    
+}
+
 .section-container {
     width: 650px;
     height: 100%;
+    /* margin: 400px; */
     padding: 50px 100px;
-    background-color: violet;
+    background-color: rgba(238, 130, 238, 0.5);
     /* margin: 0 auto; */
     margin: 70px 200px
 
